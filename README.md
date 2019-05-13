@@ -1,12 +1,12 @@
 # Improved Dynamic Graph Learning through Fault-Tolerant Sparsification
 
 
-This is the source code for the experiments in the paper 'Improved dynamic graph learning through fault-tolerant sparsification', published in ICML 2019. There are three folders, data, java and matlab, which contain data, java code and matlab code respectively.
+This is the source code for the experiments in the paper 'Improved dynamic graph learning through fault-tolerant sparsification', published in ICML 2019. There are three folders, data, java and matlab, which contain data, Java code and Matlab code respectively.
 
 # Usages
 
-  - Please put the files under data folder in the Maltalb working directory. Then one can run lapsmo.m to get accurary results for Laplacian-regularized estimation, or run ssl.m to get accurary results for graph SSL.
-  - As above, one can use the files under data folder directly. Or one can generate these files by running the Java code and at the same time get update time results. Specifically, under the project in /java/ftss folder, SignalGeneration.java can be used to generate signals and obvervations y from an input graph, while SparsifierGeneration.java can be used to construct, for every time point, a sparsifier maintained from a fault-tolerant sparsifier and a sparisifier from scratch .
+  - Please unzip data/data.zip in the Matlab working directory. Then one can run matlab/lapsmo.m to get accurary results for Laplacian-regularized estimation, or run matlab/ssl.m to get accurary results for graph SSL.
+  - To generate the files prodivided under data folder, one can run the Java code, and at the same time get update time results. Specifically, under the ftss project in /java/ftss folder, SignalGeneration.java can be used to generate signals and obvervations y from an input graph. SparsifierGeneration.java can be used to get, for every time point, a sparsifier maintained from a fault-tolerant sparsifier and a sparisifier constructed from scratch.
 
 # Further Instructions
 
